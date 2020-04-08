@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="irale umar, umar, affordable web designer">
+    <meta name="author" content="Irale Umar">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+
+    <title>Starter </title>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+             <img src="logo.png" alt="">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                <a href="index.html"><li class="act">HOME</li></a>
+                <a href="about.html"><li>ABOUT ME</li></a>
+                <a href="contact me.html"><li>CONTACT ME</li></a>
+            </ul>
+            <button type="button" class="btn">SIGN UP</button>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1>I Am Irale Umar The Web  <span> Developer.</span></h1>
+            <button type="button" class="btn">Checkout My Work&apos;s </button>
+        </div>
+        <div class="vertical-bar">
+            <div class="search-icon">
+                <i class="fa fa-th-list"></i>
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook/irale umar"><i class="fa fa-facebook"></i></a>
+                <i class="fa fa-stack-overflow"></i>
+                <i class="fa fa-twitter"></i>
+                <a href="https://www.github.com/iralecode"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="notifications">
+            <div class="contents">
+                <small>Learn From Me @ Low Cost<br>click link below</small>
+                <p><a href="#">PREV</a> <a href="#">NEXT</a></p>
+            </div>
+            <div class="notification-imgs">
+        <img src="images.png" alt="">
+            </div>
+        </div>
+    </div>
+       <script>
+           var show = document.getElementById("nav-links");
+          function showMenu(){
+              show.style.right = "0"
+
+          }
+          function closeMenu(){
+              show.style.right = "-200px"
+
+          }
+       </script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="irale umar, umar, affordable web designer">
+    <meta name="author" content="Irale Umar">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+
+    <title>Starter </title>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+             <img src="logo.png" alt="">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                <a href="index.html"><li class="">HOME</li></a>
+                <a href="about.html"><li class="act">ABOUT ME</li></a>
+                <a href="contact me.html"><li>CONTACT ME</li></a>
+            </ul>
+            <button type="button" class="btn">SIGN UP</button><br><br>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="center">
+            <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="umar.jpg" alt="" style="height: 160px; width: 179px;">
+            </div>
+            <div class="abtmetxt">
+                <div class="abth1">
+                    Irale Umar
+                    <div class="abtmep">
+                     <p>
+                         Irale Umar, I am 16 years old I can Design And Develop Web<br> My Main Language&apos;s Are <span>HTML , CSS , PHP ,JS</span><br>I learned From different Free organization&apos;s very to plenty to mention. <br>
+                     </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <script>
+            var show = document.getElementById("nav-links");
+           function showMenu(){
+               show.style.right = "0"
+ 
+           }
+           function closeMenu(){
+               show.style.right = "-200px"
+ 
+           }
+        </script>
+        </body>
+        </html>
+       
